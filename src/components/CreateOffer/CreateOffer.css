@@ -1,0 +1,47 @@
+.frame-sizes-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    /* padding: 50px; */
+}
+
+
+.btn-style-create{
+    background-color: blue;
+}
+
+.product-quantity{
+    width:100px;
+    height:30px;
+    background-color: #fff;
+    border:1px solid #999;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+
+.btn-style-popup{
+      width:180px;
+      height:60px;
+      background-color: #24a0ed;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #ffffff;
+}
+
+.price-input{
+    width:100px;
+    height:30px;
+    background-color: #fff;
+    border:1px solid #999;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-top: 3px;
+    outline: none;
+}

@@ -1,0 +1,101 @@
+.admin-dashboard-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.main-content {
+  margin-left: 20%; /* Matches the width of the fixed sidebar */
+  width: 80%; /* Occupies the remaining space */
+  padding: 50px; /* Optional: Add padding for better spacing */
+}
+
+.main-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: 8px;
+  width: 300px;
+  height: 100px;
+  background-color: #ffffff;
+  color: #111827;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card-inner h3 {
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: left;
+  font-weight: 600;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  color: #6b7280;
+}
+
+.dashboard-table-offer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+  gap: 20px;
+}
+
+.current-offer-bg {
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.current-offer-bg p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-style {
+  width: 120px;
+  height: 40px;
+  background-color: #24a0ed;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.btn-style-create-ofr {
+  width: 120px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 3px solid #24a0ed;
+  margin-bottom: 10px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 15px;
+}

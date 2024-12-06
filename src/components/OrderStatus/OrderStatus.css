@@ -1,0 +1,6 @@
+.order-status-bg{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f5f5f5;
+}
